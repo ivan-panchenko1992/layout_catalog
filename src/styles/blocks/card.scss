@@ -11,9 +11,19 @@
   }
 
   &__image {
-    width: 160px;
-    height: 134px;
-    margin: 15px 5px 42px;
+    width: 166px;
+    height: 161px;
+    
+    margin: 0 2px 30px;
+    padding: 15px 3px 12px;
+
+    transition: transform 1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      
+      border: 3px solid #f3f3f3;
+    }
   }
 
   &__name {
